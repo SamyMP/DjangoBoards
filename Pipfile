@@ -7,6 +7,7 @@ name = "pypi"
 black = "*"
 django = "*"
 django-widget-tweaks = "*"
+markdown = "*"
 
 [dev-packages]
 
