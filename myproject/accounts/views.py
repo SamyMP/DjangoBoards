@@ -20,6 +20,7 @@ def signup(request):
         form = SignUpForm()
     return render(request, "signup.html", {"form": form})
 
+
 @method_decorator(login_required, name="dispatch")
 class UserUpdateView(UpdateView):
     model = User
